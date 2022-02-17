@@ -1,0 +1,43 @@
+
+.cont{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.inf{
+    margin: 3rem;
+}
+
+
+.opt{
+    width: 20rem;
+    margin: 2rem;
+}
+
+.card-body{
+    padding: 2rem  !important;
+    background-color: #333;
+    
+}
+.card-text{
+    font-size: .9rem;
+    padding: 0.7rem 1rem;
+    
+}
+
+.card-title {
+    margin-bottom: 1.45rem;
+    color: #D1A954;
+}
+
+.timest, .inf{
+    background-color: #333;
+    border-radius: 2rem;
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.cont{
+    border-color:#D1A954;
+    border-width: 30vh;
+}

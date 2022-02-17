@@ -1,0 +1,151 @@
+html,body{
+  background-color: #f7f7f7;
+  background-attachment: fixed;
+  background-image: url(../components/assets/the.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#f7f7f7;
+}
+
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+
+.jumbotron{
+  margin-bottom: 2rem;
+}
+
+.inform{
+  margin: 1rem 0 2rem;
+  padding: 2rem;
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.jumbotron, .inform, .carderror, .cardlogin, .usercard, .form, .performancecard  {
+  border-radius: 1rem;
+  background-color: #333;
+  color: #D1A954;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+
+.cardlogin  {
+  width: 25rem;
+  padding: 25px 30px 35px;
+  margin: 3rem auto;
+}
+
+ol, ul{
+  font-size: 25px;
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.users{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.usercard, .performancecard{
+  padding: 2vh 3.5vw 2vh;
+  margin: 3vh 2vw 3.5vh;
+
+  flex: 0 1 200px;
+  font-size: 1rem;
+  max-width: 44rem;
+}
+
+.edit{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.navbar{
+  padding: 30px 0 ;
+  border-radius: 0 0 2rem 2rem;
+  opacity: 0.9;
+}
+
+.navbar-nav{
+  
+  display: flex;
+  margin: 0 auto;
+  cursor: default;
+    
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    user-select: none;
+}
+
+nav a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+  color: #B8B8B8;
+}
+
+.nav-item{
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  
+}
+
+.navbar-expand {
+  justify-content: center;
+  /*flex-wrap: wrap;*/
+  flex-direction: initial
+}
+
+.nav-link{
+  color: #f7f7f7 !important;;
+}
+
+.form{
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 45vw;
+}
+
+
+
+.bg-light {
+  background-color: #3333 !important;
+
+}
+
+.cont {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 3rem;
+}
+.cont p{
+  margin-left: 5rem;
+}
+.cont p, h5{
+  text-align: justify;
+}
+
+
